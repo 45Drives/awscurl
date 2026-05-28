@@ -7,7 +7,7 @@ Standards-Version: 4.4.1
 Homepage: {{ git_url }}
 Vcs-Git: {{ git_url }}
 
-Package: python3-{{ name }}
+Package: {{ name }}
 Architecture: {{ architecture.ubuntu }}
 Depends: ${misc:Depends}, ${python3:Depends}, {{ dependencies.ubuntu_common | join(',') }}
 Description: {{ description }}

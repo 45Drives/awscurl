@@ -1,6 +1,6 @@
 {
     "schema_version": "45D_AP_V2.0",
-    "name": "awscurl",
+    "name": "python3-awscurl",
     "title": "awscurl",
     "description": "curl-like access to AWS resources with AWS Signature Version 4 request signing.",
     "version": "0.42.0",
