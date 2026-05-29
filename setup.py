@@ -34,7 +34,7 @@ setup(
     install_requires=[
         'requests',
         'configargparse',
-        'configparser',
+        # 'configparser', # now included in python3, no separate package
         'urllib3',
         "boto3",
         "botocore",
